@@ -13,7 +13,7 @@ curl --header "Content-Type: application/json" \
 http://localhost:31112/function/py2fn.openfaas-fn
 ```
 
-to repond with:
+to respond with:
 
 ```
 {"function": "ok", "params": {"a": "1", "b": "2"} }
@@ -26,6 +26,8 @@ Currently the response is missing the body completely. When I check content leng
 ```
 {"function": "ok", "params": {} }
 ```
+
+area of interest: https://github.com/pyramation/python-template-openfaas-of-watchdog-issue/blob/master/template/python3/index.py#L31-L34
 
 ## Steps to Reproduce (for bugs)
 
