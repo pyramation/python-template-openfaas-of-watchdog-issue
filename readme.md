@@ -90,7 +90,7 @@ curl --header "Content-Type: application/json"   --request POST   --data '{"a":"
 
 ## Context
 
-Trying to create languages for of-watchdog, so I can manipulate headers and create a connector that I'm working on in postgres. Currently nodejs works, so I'm a bit baffled buy this body parsing issue.
+Trying to create languages for of-watchdog, so I can manipulate headers and create a connector that I'm working on in postgres. Currently nodejs works, so I'm a bit baffled by this body parsing issue.
 
 ## Your Environment
 * Docker version 19.03.12
